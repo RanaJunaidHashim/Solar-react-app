@@ -1,0 +1,117 @@
+.pattern {
+  background: url("../img/bg-pattern1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #c4c4c413;
+  height: 100vh;
+  margin-top: 20px;
+  padding-top: 50px
+}
+.pattern > :nth-child(1) {
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 84.02%;
+}
+.pattern > :nth-child(1)::before {
+  content: "";
+  position: absolute;
+  width: 10%;
+  padding-bottom: 50px;
+  border-bottom: 4px solid #86be3f;
+  transform: translateX(250px);
+}
+.pattern-box {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  padding: 60px 120px;
+}
+
+.pattern-box > * > :nth-child(1) {
+  /* border-radius: 50%;
+  border: 2px solid #86be3f;
+  padding: 7px; */
+}
+.pattern-box > * {
+  /* display: flex; */
+  /* flex: 1; */
+  /* display: flex;
+flex-direction: row; */
+}
+.pattern-box > * > :nth-child(1) {
+  /* width: 100%; */
+}
+/* .pattern-box > * > * {
+
+display: flex;
+flex-direction: row;
+} */
+
+.box-equal {
+  /* display: flex; */
+  flex: 1;
+  /* flex-direction: column; */
+}
+.box-equal > * > * {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* display: inline-flex;
+    align-items: flex-start; */
+}
+.box-equal > * {
+  /* display: flex; */
+  /* flex-direction: row; */
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 30px;
+  align-content: center;
+}
+
+.box-equal > * > :nth-child(1) {
+  width: 150px;
+  padding: 47px 0 47px 47px;
+}
+.box-equal > * > :nth-child(2) > :first-child {
+  margin-bottom: 10px;
+}
+.box-equal > * > :nth-child(2) > :first-child {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 84.02%;
+}
+.box-equal > * > :nth-child(2) > :nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 128.52%;
+}
+
+
+@media all and (max-width: 768px) {
+  .box-equal > * > :nth-child(1) {
+    padding: 10px;
+}
+.pattern-box {
+  padding: 20px 5px;
+  flex-direction: column;
+}
+.pattern {
+  height: 100%;
+  margin-top: 20px;
+  /* padding-top: 30px; */
+  padding: 30px 10px 0 10px;
+}
+.pattern > :nth-child(1) {
+  font-size: 25px;
+  line-height: 84.02%;
+  padding: 20px 0;
+}
+.pattern > :nth-child(1)::before {
+  padding-bottom: 40px;
+}
+
+}

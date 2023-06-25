@@ -1,0 +1,96 @@
+.sole {
+  background: url("../img/bg-pattern2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* width: 100%; */
+}
+
+.sole-cards {
+  display: flex;
+  gap: 30px;
+  padding: 80px 165px;
+}
+
+.sole-cards > * {
+  padding: 40px 10px;
+}
+.sole-cards > .pcards > * {
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.sole-cards > * > :nth-child(2) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 84.02%;
+}
+.sole-cards > * > :nth-child(3) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 126.52%;
+  text-align: center;
+  color: #666666;
+}
+.sole-cards > :last-child {
+  border: 1.5px solid #cbb702;
+  border-radius: 5px;
+  /* padding: 20px; */
+}
+.sole-cards > :first-child {
+  border: 1.5px solid #86be3f;
+  border-radius: 5px;
+}
+.sole-cards > :nth-child(2) {
+  border: 1.5px solid #777777;
+  border-radius: 5px;
+}
+.sole-cards > :nth-child(3) {
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+/* .sole-cards > .card-border {
+    border: 1.5px solid #CBB702;
+    border-radius: 5px;
+    padding: 20px;
+} */
+/* .sole-cards  {
+    border: 1.5px solid #CBB702;
+    border-radius: 5px;
+    padding: 10px;
+} */
+
+/* .sole-cards > .card-border {
+  height: 100px;
+  border: 1.5px dashed #CBB702;
+  border-radius: 5px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+} */
+
+.sole > :last-child {
+  margin: 0 auto;
+  display: block;
+}
+
+@media all and (max-width: 768px) {
+  .sole {
+    margin: 20px 0;
+    padding-top: 20px;
+  }
+  .sole > .about-head {
+    font-size: 30px;
+    /* line-height: 60.02%; */
+    /* margin: 0 auto 10px auto; */
+    padding-bottom: 20px;
+  }
+  .sole-cards {
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sole > :last-child {
+    margin: 10px auto;
+  }
+}
