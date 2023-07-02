@@ -1,11 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import { IoIosCall, IoIosMail } from "react-icons/io";
-import logo1 from "../img/logo 1.png";
+// import logo1 from "../img/logo 1.png";
 import logo2 from "../img/logo-solar-head.png";
 import boximage from "../img/box-image.png";
 import { Fade as Hamburger } from "hamburger-react";
 import "./Header.css";
-import "./ResponsiveStyle.css";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

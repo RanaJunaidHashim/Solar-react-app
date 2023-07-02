@@ -5,14 +5,12 @@
   position: relative;
 }
 .Sire > :nth-child(1) {
-  /* position: absolute; */
-  /* padding: 110px; */
   width: fit-content;
   padding: 110px 0 100px 110px;
 }
 .Sire > :nth-child(1) > :nth-child(2) {
   position: absolute;
-  /* padding: 110px; */
+  
   left: 20%;
   top: 55%;
 }
@@ -43,22 +41,16 @@
 @media all and (max-width: 768px) {
   .containers > :nth-child(2) > * > :nth-child(1) {
     margin-right: 7px;
-}
+  }
   .Sire > :nth-child(1) {
-    /* position: absolute; */
-    /* padding: 110px; */
     width: fit-content;
     padding: 20px 0 100px 0;
-    
   }
   .Sire > :nth-child(1) > :nth-child(1) {
     position: relative;
-    /* padding: 110px; */
-    /* left: 3%;
-    top: 32; */
+
     object-fit: cover;
     max-width: 100%;
-   
   }
   .Sire > :nth-child(1) > :nth-child(2) {
     position: absolute;
@@ -66,19 +58,14 @@
     top: 30%;
     object-fit: cover;
     max-width: 90%;
-    /* padding: 110px; */
-    /* left: 3%;
-    top: 32; */
   }
   .Sire {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    /* position: relative; */
-    /* overflow: hidden; */
   }
- 
-  .Sire > :nth-child(2){
+
+  .Sire > :nth-child(2) {
     padding: 0 20px;
   }
   .Sire > :nth-child(2) > * {
@@ -91,8 +78,4 @@
   .Sire > :nth-child(2) > :nth-child(2)::before {
     padding-bottom: 40px;
   }
-  /* .Sire > :nth-child(2) > :last-child {
-    padding: 0 10px;
-  } */
- 
 }

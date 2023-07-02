@@ -5,9 +5,6 @@
 }
 .sec-contact {
   display: flex;
-  /* width: 350px;
-  height: 344px; */
-  /* flex-shrink: 0; */
   gap: 20px;
   padding: 50px 25px;
 }
@@ -45,16 +42,12 @@
 }
 .c-two {
   flex: 2;
-  /* display: flex; */
   border: 1px solid #adadad60;
   border-radius: 9px;
-  /* height: 344px;
-  width: 730px; */
+
   padding: 20px;
 }
-/* .c-two > * {
-  padding: 20px;
-} */
+
 .c-two > input {
   flex-direction: row;
   gap: 15px;
@@ -76,33 +69,19 @@
   border-color: #adadad60;
   outline: none;
   border-radius: 5px;
-  /* height: 45px;
-    width: 329px; */
-  /* height: 45px; */
+
   width: 49%;
   gap: 10px;
-
-  /* padding: 10px;
-    width:fit-content; */
   padding: 10px;
 }
 .c-two > :nth-child(3),
 .c-two > :nth-child(4) {
-  /* height: 45px; */
   width: 100%;
-  /* padding: 10px;
-    width:fit-content; */
 }
 
 .c-two > :last-child {
-  /* display: block;
-    text-align: end; */
   margin: 10px 0;
 }
-/* .c-two > button{
-    display: block;
-    text-align: end;
-} */
 
 .c-foot {
   display: flex;
@@ -154,9 +133,6 @@
   align-items: center;
   border-radius: 50%;
   overflow: hidden;
-}
-.c-foot > :nth-child(2) > :nth-child(2) > img {
-  /* position: absolute; */
 }
 
 @media all and (max-width: 768px) {

@@ -49,23 +49,6 @@
   border: 1.5px solid black;
   border-radius: 5px;
 }
-/* .sole-cards > .card-border {
-    border: 1.5px solid #CBB702;
-    border-radius: 5px;
-    padding: 20px;
-} */
-/* .sole-cards  {
-    border: 1.5px solid #CBB702;
-    border-radius: 5px;
-    padding: 10px;
-} */
-
-/* .sole-cards > .card-border {
-  height: 100px;
-  border: 1.5px dashed #CBB702;
-  border-radius: 5px;
-  transform: matrix(1, 0, 0, -1, 0, 0);
-} */
 
 .sole > :last-child {
   margin: 0 auto;
@@ -79,8 +62,6 @@
   }
   .sole > .about-head {
     font-size: 30px;
-    /* line-height: 60.02%; */
-    /* margin: 0 auto 10px auto; */
     padding-bottom: 20px;
   }
   .sole-cards {

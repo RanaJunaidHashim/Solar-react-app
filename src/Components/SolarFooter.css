@@ -1,18 +1,11 @@
-/* .footer {
-    height: 100vh;
-    background: rgba(0, 0, 0, 1.2) url("../img/footer-bg.png");
-    background-size: 90px;
-  }
-   */
 .footer {
   position: relative;
   height: 100%;
   padding: 70px 100px 30px 100px;
   background-color: rgb(49, 49, 49);
 }
-.footer *{
+.footer * {
   z-index: 2;
-  
 }
 
 .footer::after {
@@ -42,19 +35,13 @@
 .f-footer > :nth-child(1) > a {
   color: #86be3f;
   text-decoration: none;
-  /* opacity: 0.5; */
-  /* text-decoration: underline;
-  list-style: decimal; */
 }
 .f-footer > :nth-child(2) {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
-/* .f-footer > :nth-child(2) > :first-child {
-  color: #fff;
-  filter: invert(100);
-} */
+
 .f-footer > :nth-child(2) > * {
   display: flex;
   background: #ffffff;
@@ -66,10 +53,7 @@
   overflow: hidden;
   padding: 10px;
 }
-.f-footer > :nth-child(2) > * > * {
-  /* max-width: 100%; */
-  /* max-height: 100%; */
-}
+
 .footer-flex {
   display: flex;
   color: #fff;
@@ -114,28 +98,16 @@
 }
 
 .footer-flex > :last-child > .c-one {
-  /* flex: 1; */
   border: none;
-  /* height: 344px;
-  width: 350px;
-  align-items: center; */
 }
 .footer-flex > :last-child > .c-one > * {
-  /* display: flex;
-  flex-direction: row; */
-
-  /* flex-wrap: wrap;
-  align-self: center; */
   padding: 10px 0;
-  /* margin: 0 0; */
 }
 .footer-flex > :last-child > .c-one > :nth-child(3) {
   border-bottom: none;
   padding: 0px;
 }
 .footer-flex > :last-child > .c-one > * > :nth-child(1) {
-  /* margin:10px; */
-  /* padding: 10px; */
   width: 20px;
 }
 .footer-flex > :last-child > .c-one > * > :nth-child(2) {
@@ -170,9 +142,6 @@
     justify-content: center;
     align-content: center;
   }
-  /* .footer-flex > :nth-child(2) > p,
-  .footer-flex > :nth-child(3) > p,
-  .footer-flex > :nth-child(3) > ul > p, */
   .footer-flex > :last-child > p {
     text-align: center;
   }
@@ -183,16 +152,14 @@
     text-align: center;
   }
 
- 
   .f-footer > :nth-child(1) > a {
     font-size: small;
   }
 }
 @media all and (max-width: 400px) {
-
-.f-footer > :nth-child(1) {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
+  .f-footer > :nth-child(1) {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
 }
